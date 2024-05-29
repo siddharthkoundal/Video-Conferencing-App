@@ -38,7 +38,7 @@ const MeetingTypeList = () => {
         img="/icons/add-meeting.svg"
         title="Join Meeting"
         description="via invitation link"
-        handleClick={() => router.push("/recordings")}
+        handleClick={() => setMeetingState("isJoiningMeeting")}
         className="bg-yellow-1"
       />
     </section>
